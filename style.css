@@ -1,0 +1,29 @@
+.photo {
+    overflow: hidden !important;
+}
+.photo .continer{
+    overflow:hidden!important;
+}
+.photo .continer .row .image  img{
+    margin: 20px;
+}
+
+.photo .continer .row .image:hover  img{
+    transform: scale(0.99);
+    transition: 0.33s;
+    cursor: pointer;
+}
+.landing  .continer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:  0px auto;
+}
+.landing  .text{
+    background-color: red;
+    border:  solid 8px blue;
+    width: 80% !important;
+    margin:  0px auto;
+    text-align: center;
+}
